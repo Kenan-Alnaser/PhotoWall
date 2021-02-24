@@ -1,0 +1,60 @@
+img {
+  display: inline-block;
+  width: 12rem;
+  height: 8rem;
+}
+#fDog {
+  position: relative;
+  top: 20vh;
+  transform: rotate(10deg);
+  z-index: 4;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  border: black 1px solid;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+}
+#sDog {
+  position: relative;
+  top: 15vh;
+  transform: rotate(20deg);
+  z-index: 3;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  right: 10vh;
+  border: black 1px solid;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+}
+#tDog {
+  position: relative;
+  top: 10vh;
+  transform: rotate(10deg);
+  z-index: 2;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  right: 20vh;
+  border: black 1px solid;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+}
+#frDog {
+  position: relative;
+  top: 1vh;
+  transform: rotate(-10deg);
+  z-index: 1;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  right: 50vh;
+  border: black 1px solid;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+}
